@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">healthfull</string>
+
+    <string name="accessaccount">Access Account</string>
+    <string name="or_login_wi">or login with email</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="email_adres">Email Adress</string>
+    <string name="password">Password</string>
+    <string name="forget_pass">Forget password?</string>
+    <string name="skip">Skip</string>
+    <string name="don_t_have_">Dont have an account</string>
+    <string name="register">Register</string>
+    <string name="title_create">Lets create account here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already">Already have an account ?</string>
+    <string name="login">Login</string>
+    <string name="cm">CM</string>
+    <string name="kg">KG</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="goals">Goals</string>
+    <string name="repassword">ReType Password</string>
 </resources>

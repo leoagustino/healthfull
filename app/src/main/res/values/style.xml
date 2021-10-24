@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <style name="sign_in">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#2C573B</item>
+    </style>
+
+    <style name="accessaccount">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#2C573B</item>
+    </style>
+
+    <style name="or_login_wi">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#2C573B</item>
+    </style>
+
+    <style name="email_adres">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#2C573B</item>
+    </style>
+    <style name="password">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#2C573B</item>
+    </style>
+    <style name="forget_pass">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#2C573B</item>
+    </style>
+    <style name="skip">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#2C573B</item>
+    </style>
+
+    <style name="don_t_have_">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#2C573B</item>
+    </style>
+
+
+</resources>
