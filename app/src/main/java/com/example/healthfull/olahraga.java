@@ -42,7 +42,7 @@ public class olahraga extends AppCompatActivity {
                     case R.id.weight:
                         Toast.makeText(olahraga.this, "Weight clicked", Toast.LENGTH_SHORT).show();
                     case R.id.evaluasi:
-                        Toast.makeText(olahraga.this, "Evaluation clicked", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(olahraga.this, "Evalution clicked", Toast.LENGTH_SHORT).show();
                 }
                 return true;
             }

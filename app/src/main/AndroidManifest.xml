@@ -10,10 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Healthfull">
         <activity
-            android:name=".Navbar"
-            android:exported="true"
-            android:label="@string/title_activity_navbar" />
-        <activity
             android:name=".onboard1"
             android:exported="true">
             <intent-filter>

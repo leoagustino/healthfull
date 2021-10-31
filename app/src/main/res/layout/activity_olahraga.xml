@@ -341,17 +341,16 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/menu_bawah"
-        android:background="@color/nav"
-        app:itemIconTint="@drawable/state_bnv"
-        app:itemTextColor="@drawable/state_bnv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_marginTop="21dp"
+        android:background="@color/nav"
         android:foregroundGravity="bottom"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:itemIconTint="@drawable/state_bnv"
+        app:itemTextColor="@drawable/state_bnv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/card"
         app:menu="@menu/menu_bawah" />
