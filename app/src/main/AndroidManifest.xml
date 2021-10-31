@@ -8,7 +8,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Healthfull">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".pengingatActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".pengingatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".detailInput"
+            android:exported="true" />
+        <activity
+            android:name=".inputMenu"
+            android:exported="true" />
+        <activity
+            android:name=".laporan"
+            android:exported="true" /> <!-- android:theme="@style/Theme.Healthfull"> -->
+        <activity
+            android:name=".menumakan"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard"
+            android:exported="true" />
         <activity
             android:name=".signup"
             android:exported="true" />
