@@ -8,4 +8,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dasar">#EDEFE3</color>
+    <color name="dasar2">#B4D09D</color>
+    <color name="hijau">#2E9852</color>
+    <color name="merahtua">#AF5D5D</color>
+    <color name="card">#398B56</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="merah">#D81A36</color>
+    <color name="hijau1">#77a803</color>
+
+
 </resources>

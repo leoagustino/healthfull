@@ -1,13 +1,13 @@
 package com.example.healthfull;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class MainActivity extends AppCompatActivity {
+    
 
     Button btn1, btn2;
 
@@ -40,5 +40,49 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+       
     }
 }
+
+//        findViewById(R.id.btn_login).setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(getApplicationContext(), signin.class));
+//            }
+//        });
+//
+//        findViewById(R.id.btn_register).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(getApplicationContext(), signup.class));
+//            }
+//        });
+//
+//        findViewById(R.id.btn_dashboard).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(getApplicationContext(), dashboard.class));
+//            }
+//        });
+//
+//        findViewById(R.id.btn_menumakan).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(getApplicationContext(), menumakan.class));
+//            }
+//        });
+
+   // }
+
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        super.onCreateOptionsMenu(menu);
+//        getMenuInflater().inflate(R.menu.nav_menu, menu);
+//        return true;
+//    }
+
+
+
+
+

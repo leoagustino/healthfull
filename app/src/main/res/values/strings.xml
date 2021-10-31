@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">healthfull</string>
+
     <string name="anda_ingin_">
 Anda ingin tahu berapa kalori yang anda kumpulkan dalam hari ini?
 </string>
@@ -28,5 +29,103 @@ Olahraga
     <string name="home">Home</string>
     <string name="weight">Weight</string>
     <string name="evaluasi">Evaluation</string>
+
+
+    <string name="accessaccount">Access Account</string>
+    <string name="or_login_wi">or login with email</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="email_adres">Email Adress</string>
+    <string name="password">Password</string>
+    <string name="forget_pass">Forget password?</string>
+    <string name="skip">Skip</string>
+    <string name="don_t_have_">Dont have an account</string>
+    <string name="register">Register</string>
+    <string name="title_create">Lets create account here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already">Already have an account ?</string>
+    <string name="login">Login</string>
+    <string name="cm">CM</string>
+    <string name="kg">KG</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="goals">Goals</string>
+    <string name="repassword">ReType Password</string>
+    <string name="dash">-</string>
+    <string name="namauser">Hello, Guest</string>
+    <string name="kcal">600 Kcal</string>
+    <string name="calories_le">Calories left</string>
+    <string name="search">Search</string>
+
+    <string name="report">My Files</string>
+    <string name="setting">Shared</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+
+
+    <string name="viewGithub">View on GitHub</string>
+    <string name="reportProblem">Problem Report</string>
+    <string name="viewWebsite">Developer Website</string>
+    <string name="actionSave">Save to Gallery</string>
+
+    <string name="animateX">Animate X</string>
+    <string name="animateY">Animate Y</string>
+    <string name="animateXY">Animate XY</string>
+
+    <string name="actionToggleValues">Toggle Values</string>
+    <string name="actionToggleYValues">Toggle Y-Values</string>
+    <string name="actionToggleXValues">Toggle X-Values</string>
+
+    <string name="actionToggleIcons">Toggle Icons</string>
+    <string name="actionToggleHighlight">Toggle Highlight</string>
+    <string name="actionTogglePinch">Toggle PinchZoom</string>
+    <string name="actionToggleAutoScale">Toggle Auto Scale</string>
+
+    <string name="actionToggleLineValues">Toggle Line Values</string>
+    <string name="actionToggleBarValues">Toggle Bar Values</string>
+    <string name="actionToggleBarBorders">Toggle Bar Borders</string>
+    <string name="actionToggleFilled">Toggle Filled</string>
+    <string name="actionToggleCircles">Toggle Circles</string>
+    <string name="actionToggleCandleShadow">Toggle Shadow Color</string>
+
+    <string name="actionToggleCubic">Toggle Cubic</string>
+    <string name="actionToggleStepped">Toggle Stepped</string>
+    <string name="actionToggleHorizontalCubic">Toggle Horizontal Cubic</string>
+
+    <string name="actionAddEntry">Add Entry</string>
+    <string name="actionFeedMultiple">Add Multiple</string>
+    <string name="actionRemoveEntry">Remove Entry</string>
+    <string name="actionAddDataSet">Add Data Set</string>
+    <string name="actionRemoveDataSet">Remove Data Set</string>
+    <string name="actionClearChart">Clear chart</string>
+
+    <string name="actionTogglePercent">Toggle Percent</string>
+    <string name="actionToggleMinAngles">Toggle Minimum Angles</string>
+    <string name="actionToggleHole">Toggle Hole</string>
+    <string name="actionToggleCurvedSlices">Toggle Curved Slices</string>
+    <string name="actionDrawCenterText">Draw Center Text</string>
+    <string name="actionToggleHighlightCircle">Toggle Highlight Circle</string>
+    <string name="actionToggleRotation">Toggle Rotation</string>
+    <string name="actionToggleSpin">Spin Animation</string>
+
+    <string name="scrollViewStart">START OF SCROLLVIEW</string>
+    <string name="scrollViewEnd">END OF SCROLLVIEW</string>
+
+
+    <string name="col1">Name</string>
+    <string name="col2">Age</string>
+    <string name="col3">Surname</string>
+    <string name="row1Name">Ali</string>
+    <string name="row1Age">51</string>
+    <string name="row1Surname">Mohammad</string>
+    <string name="row2Name">Dave</string>
+    <string name="row2Age">45</string>
+    <string name="row2Surname">Smith</string>
+    <string name="row3Name">Jason</string>
+    <string name="row3Age">67</string>
+    <string name="row3Surname">William</string>
+
 
 </resources>

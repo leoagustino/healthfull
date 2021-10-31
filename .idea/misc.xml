@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="app/src/main/res/drawable/buttonvideoorg.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/elipse.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/garistengah.xml" value="0.209375" />
@@ -23,6 +24,36 @@
         <entry key="app/src/main/res/layout/activity_onboarding1.xml" value="0.15439034540158136" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/menu/menu_bawah.xml" value="0.1" />
+
+        <entry key="app/src/main/res/drawable/circleprogress.xml" value="0.13020833333333334" />
+        <entry key="app/src/main/res/drawable/fade_red.xml" value="0.13020833333333334" />
+        <entry key="app/src/main/res/drawable/header.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/drawable/ic_alarm_vec.xml" value="0.17447916666666666" />
+        <entry key="app/src/main/res/drawable/ic_calendar.xml" value="0.17447916666666666" />
+        <entry key="app/src/main/res/drawable/kotak.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/drawable/lingkaran.xml" value="0.17447916666666666" />
+        <entry key="app/src/main/res/drawable/progcircle.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_detail_input.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_input_menu.xml" value="0.2087912087912088" />
+        <entry key="app/src/main/res/layout/activity_laporan.xml" value="0.20081967213114754" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_menumakan.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_pengingat.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_pengingat2.xml" value="0.21458333333333332" />
+        <entry key="app/src/main/res/layout/activity_signin.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/dropdownjadwal.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/header.xml" value="0.21458333333333332" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.2246376811594203" />
+        <entry key="app/src/main/res/layout/nav_header_layout.xml" value="0.15450861195542046" />
+        <entry key="app/src/main/res/menu/line.xml" value="0.21" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.3176470588235294" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/navigation_view_content.xml" value="0.3177083333333333" />
+        <entry key="app/src/main/res/menu/topbarmenu.xml" value="0.33" />
+
       </map>
     </option>
   </component>
