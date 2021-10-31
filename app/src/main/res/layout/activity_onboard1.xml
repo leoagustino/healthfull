@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".onboard1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="425dp"
+        android:layout_height="351dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/olahraga3"
+        app:layout_constraintBottom_toTopOf="@+id/anda_ingin_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/anda_ingin_"
+        android:layout_width="229dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="121dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/anda_ingin_"
+        android:textAppearance="@style/text1"
+        app:layout_constraintBottom_toTopOf="@+id/btngsr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/btngsr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginBottom="300dp"
+        android:src="@drawable/onboard_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btngsr2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anda_ingin_" />
+
+    <ImageView
+        android:id="@+id/btngsr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="121dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ellipse_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btngsr3"
+        app:layout_constraintStart_toEndOf="@+id/btngsr"
+        app:layout_constraintTop_toBottomOf="@+id/anda_ingin_" />
+
+    <ImageView
+        android:id="@+id/btngsr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ellipse_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btngsr2"
+        app:layout_constraintTop_toBottomOf="@+id/anda_ingin_" />
+
+    <Button
+        android:id="@+id/skip"
+        style="@style/text1"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#EDEFE3"
+        android:lineHeight="29sp"
+        android:stateListAnimator="@null"
+        android:text="Skip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btngsr3"
+        app:layout_constraintTop_toBottomOf="@+id/anda_ingin_"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F9F9F9"
+    tools:context=".olahraga">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="413dp"
+        android:layout_height="223dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="470dp"
+        android:src="@drawable/card1olahraga"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/card"
+        android:layout_width="358dp"
+        android:layout_height="308dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/olahragakotak"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video" />
+
+    <TextView
+        android:id="@+id/olahraga"
+        android:layout_width="146dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:text="@string/olahraga"
+        android:textAppearance="@style/olahraga"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="351dp"
+        android:layout_height="252dp"
+        android:src="@drawable/cardhijauorg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/navbar"-->
+<!--        android:layout_width="414dp"-->
+<!--        android:layout_height="58dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:src="@drawable/navbar"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangeltanggal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/calendar_to"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/calendar_today"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toTopOf="@+id/video"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/img4"
+        app:layout_constraintTop_toBottomOf="@+id/olahraga"
+        app:layout_constraintVertical_bias="0.602" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="224dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Pilih Tanggal"
+        android:inputType="date"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/img4"
+        app:layout_constraintEnd_toStartOf="@+id/circularImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/hi"
+        app:layout_constraintTop_toTopOf="@+id/img4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/hello_mrs_d"
+        android:layout_width="52dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="17dp"
+        android:gravity="top"
+        android:text="@string/profil"
+        android:textAppearance="@style/profil"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/calendar_to"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/olahraga"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <TextView
+        android:id="@+id/hi"
+        android:layout_width="52dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="17dp"
+        android:gravity="top"
+        android:text="@string/prfl"
+        android:textAppearance="@style/profil"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/calendar_to"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/olahraga"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularImageView"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profil"
+        app:civ_border_width="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toEndOf="@+id/hi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <Button
+        android:id="@+id/video"
+        style="@style/video"
+        android:layout_width="146dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#EDEFE3"
+        android:text="Video"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/artikel"
+        style="@style/video"
+        android:layout_width="146dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#EDEFE3"
+        android:text="Artikel"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/video"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/video"
+        app:layout_constraintTop_toTopOf="@+id/video" />
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Pembakaran Kalori"
+        android:textAppearance="@style/olahraga"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <ImageView
+        android:id="@+id/indicator"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/indicator"
+        app:layout_constraintBottom_toBottomOf="@+id/card"
+        app:layout_constraintEnd_toEndOf="@+id/card"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="@+id/card"
+        app:layout_constraintTop_toBottomOf="@+id/detail"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/indicatorcklt"
+        app:layout_constraintBottom_toBottomOf="@+id/card"
+        app:layout_constraintEnd_toEndOf="@+id/card"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="@+id/card"
+        app:layout_constraintTop_toBottomOf="@+id/detail"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <ImageView
+        android:id="@+id/lingkaran"
+        android:layout_width="151dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/lingkaran"
+        app:layout_constraintBottom_toBottomOf="@+id/card"
+        app:layout_constraintEnd_toEndOf="@+id/card"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="@+id/card"
+        app:layout_constraintTop_toBottomOf="@+id/artikel"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <TextView
+        android:id="@+id/olahraga_65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Olahraga 65%"
+        android:textAppearance="@style/olahraga_65"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/lingkaran"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toEndOf="@+id/indicator"
+        app:layout_constraintTop_toBottomOf="@+id/detail"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <TextView
+        android:id="@+id/istirahat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Istirahat 40%"
+        android:textAppearance="@style/olahraga_65"
+        app:layout_constraintEnd_toEndOf="@+id/olahraga_65"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/olahraga_65" />
+
+    <ImageView
+        android:id="@+id/line1"
+        android:layout_width="163dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/garistengah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/lingkaran"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="@+id/card"
+        app:layout_constraintTop_toBottomOf="@+id/istirahat"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/olahragakkl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="40dp"
+        android:text="Olahraga 100 Kkal"
+        android:textAppearance="@style/olahraga_65"
+        app:layout_constraintEnd_toStartOf="@+id/lingkaran"
+        app:layout_constraintStart_toEndOf="@+id/indctr"
+        app:layout_constraintTop_toBottomOf="@+id/line1" />
+
+    <TextView
+        android:id="@+id/istirahatkkal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Istirahat : 150 Kkal"
+        android:textAppearance="@style/olahraga_65"
+        app:layout_constraintBottom_toBottomOf="@+id/lingkaran"
+        app:layout_constraintEnd_toEndOf="@+id/olahragakkl"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/olahragakkl"
+        app:layout_constraintTop_toBottomOf="@+id/olahragakkl" />
+
+    <ImageView
+        android:id="@+id/indctr"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:src="@drawable/indicator"
+        app:layout_constraintBottom_toBottomOf="@+id/olahragakkl"
+        app:layout_constraintEnd_toStartOf="@+id/olahragakkl"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/olahragakkl" />
+
+    <ImageView
+        android:id="@+id/indictrckt"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:src="@drawable/indicatorcklt"
+        app:layout_constraintBottom_toBottomOf="@+id/istirahatkkal"
+        app:layout_constraintEnd_toStartOf="@+id/istirahatkkal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/indctr"
+        app:layout_constraintTop_toTopOf="@+id/istirahatkkal"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu_bawah"
+        android:background="@color/nav"
+        app:itemIconTint="@drawable/state_bnv"
+        app:itemTextColor="@drawable/state_bnv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="21dp"
+        android:foregroundGravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card"
+        app:menu="@menu/menu_bawah" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

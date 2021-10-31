@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">healthfull</string>
+    <string name="anda_ingin_">
+Anda ingin tahu berapa kalori yang anda kumpulkan dalam hari ini?
+</string>
+
+    <string name="text2">
+Ingin mengatur pola makan anda menjadi lebih baik?
+</string>
+
+    <string name="text3">
+Ayo mulai hidup sehat bersama kami!
+</string>
+
+    <string name="olahraga">
+Olahraga
+</string>
+
+    <string name="profil">
+        Hello,
+</string>
+
+    <string name="prfl">
+        Mrs Desi
+    </string>
+    <string name="title_activity_navbar">Activity</string>
+    <string name="eat">Eat</string>
+    <string name="home">Home</string>
+    <string name="weight">Weight</string>
+    <string name="evaluasi">Evaluation</string>
+
 </resources>
