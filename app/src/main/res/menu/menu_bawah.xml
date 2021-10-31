@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/activity"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_accessibility_24"
+        android:title="Activity"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/eat"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_local_dining_24"
+        android:title="Eat"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/weight"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_launch_24"
+        android:title="Weight"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/evaluasi"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:title="Evaluation"
+        app:showAsAction="ifRoom"/>
+
+</menu>

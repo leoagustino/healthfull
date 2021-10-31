@@ -37,6 +37,24 @@
             android:name=".signin"
             android:exported="true" />
         <activity
+            android:name=".onboard1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".onboard2"
+            android:exported="true" />
+        <activity
+            android:name=".onboard3"
+            android:exported="true" />
+        <activity
+            android:name=".olahraga"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -2,113 +2,46 @@ package com.example.healthfull;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.google.android.material.navigation.NavigationView;
+public class MainActivity extends AppCompatActivity {
+    
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    private Toolbar mToolbar;
-    private DrawerLayout drawerLayout;
-    private NavigationView navigationView;
+    Button btn1, btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mToolbar = findViewById(R.id.main_toolbar);
-        setSupportActionBar(mToolbar);
+       btn1 = (Button) findViewById(R.id.btnMove);
+       btn2 = (Button) findViewById(R.id.btnShare);
 
-        drawerLayout = findViewById(R.id.drawer_layout);
-        navigationView = findViewById(R.id.nav_view);
 
-        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(
-                this,
-                drawerLayout,
-                mToolbar,
-                R.string.openNavDrawer,
-                R.string.closeNavDrawer
-        );
-
-        drawerLayout.addDrawerListener(actionBarDrawerToggle);
-        actionBarDrawerToggle.syncState();
-        navigationView.setNavigationItemSelectedListener(this);
-
-        findViewById(R.id.btn_login).setOnClickListener(new View.OnClickListener() {
+        btn1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), signin.class));
+            public void onClick(View v) {
+                Intent b = new Intent(MainActivity.this, onboard1.class);
+                startActivity(b);
             }
         });
 
-        findViewById(R.id.btn_register).setOnClickListener(new View.OnClickListener() {
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), signup.class));
-            }
-        });
+            public void onClick(View v) {
 
-        findViewById(R.id.btn_dashboard).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), dashboard.class));
-            }
-        });
+             Intent intent = new Intent(Intent.ACTION_SEND);
+             intent.putExtra(intent.EXTRA_TEXT,"Hallo saya share ke sosial media");
+                intent.setType("text/plain");
 
-        findViewById(R.id.btn_menumakan).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), menumakan.class));
-            }
-        });
-
-        findViewById(R.id.btn_laporan).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), laporan.class));
-            }
-        });
-
-        findViewById(R.id.btn_inputmenu).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), inputMenu.class));
-            }
-        });
-
-        findViewById(R.id.btn_detail).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), detailInput.class));
-            }
-        });
-
-        findViewById(R.id.btn_pengingat).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), pengingatActivity.class));
+          startActivity(Intent.createChooser(intent,"Share to :"));
             }
         });
 
 
-    }
-
-    @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return false;
-    }
-
-    @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {
-
+       
     }
 }
 
