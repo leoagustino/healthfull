@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Menu">
+
+        <menu>
+            <item android:title="123"
+                android:id="@+id/report"
+                android:icon="@drawable/ic_report"
+                />
+            <item android:title="Setting"
+                android:icon="@drawable/setting"
+
+                />
+            <item android:title="About"
+                android:icon="@drawable/ic_info" />
+            <item android:title="BMI"
+                android:icon="@drawable/ic_bmi" />
+        </menu>
+    </item>
+    <item android:title="Keluar">
+        <menu>
+            <item android:title="Log Out"
+                android:icon="@drawable/ic_logout" />
+        </menu>
+    </item>
+</menu>

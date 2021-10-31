@@ -1,18 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/drawer_layout"
+    >
 
-    <TextView
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/hijau"
+                />
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu"
+        android:id="@+id/nav_view"
+        android:background="@color/hijau"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_layout"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="signin"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="signup"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <Button
+            android:id="@+id/btn_dashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dasboard"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+        <Button
+            android:id="@+id/btn_menumakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menumakan"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="414dp" />
+
+        <Button
+            android:id="@+id/btn_laporan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laporan"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="587dp" />
+        <Button
+            android:id="@+id/btn_inputmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="input menu"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="587dp" />
+        <Button
+            android:id="@+id/btn_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="587dp" />
+        <Button
+            android:id="@+id/btn_pengingat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pengingat"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="587dp" />
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
