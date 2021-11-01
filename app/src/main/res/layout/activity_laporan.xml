@@ -161,14 +161,14 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView6"
+                            android:id="@+id/textView01"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="\u2022 Protein"
                             android:textAppearance="@style/calories_le" />
 
                         <TextView
-                            android:id="@+id/textView6"
+                            android:id="@+id/textView02"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1000 gram"
@@ -182,21 +182,21 @@
                             android:textAppearance="@style/calories_le" />
 
                         <TextView
-                            android:id="@+id/textView6"
+                            android:id="@+id/textView03"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1000 gram"
                             android:textAppearance="@style/gr" />
 
                         <TextView
-                            android:id="@+id/textView6"
+                            android:id="@+id/textView04"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="\u2022 Lemak"
                             android:textAppearance="@style/calories_le" />
 
                         <TextView
-                            android:id="@+id/textView6"
+                            android:id="@+id/textView05"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1000 gram"

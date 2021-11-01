@@ -143,7 +143,7 @@
         android:orientation="horizontal"></LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView2"
         android:layout_width="24dp"
         android:layout_height="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -253,7 +253,7 @@
                     app:srcCompat="@drawable/kotak" />
 
                 <LinearLayout
-                    android:id="@+id/linearLayout01"
+                    android:id="@+id/linear1"
                     android:layout_width="317dp"
                     android:layout_height="32dp"
                     android:layout_marginTop="20dp"
@@ -269,7 +269,7 @@
                         tools:layout_editor_absoluteY="413dp" />
 
                     <TextView
-                        android:id="@+id/judul"
+                        android:id="@+id/judul1"
                         android:layout_width="234dp"
                         android:layout_height="28dp"
                         android:layout_alignParentLeft="true"
@@ -283,7 +283,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linearLayout11"
+                    android:id="@+id/linear2"
                     android:layout_width="wrap_content"
                     android:layout_height="16dp"
                     android:layout_marginLeft="50dp"
@@ -305,7 +305,7 @@
                         tools:layout_editor_absoluteY="441dp" />
 
                     <TextView
-                        android:id="@+id/dr1"
+                        android:id="@+id/dr2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -325,13 +325,13 @@
                 android:layout_marginTop="4dp">
 
                 <ImageView
-                    android:id="@+id/dasarkonten"
+                    android:id="@+id/dasarkonten2"
                     android:layout_width="310dp"
                     android:layout_height="91dp"
                     app:srcCompat="@drawable/kotak" />
 
                 <LinearLayout
-                    android:id="@+id/linearLayout10"
+                    android:id="@+id/linear3"
                     android:layout_width="317dp"
                     android:layout_height="32dp"
                     android:layout_marginTop="20dp"
@@ -339,7 +339,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/imageView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/buah"
@@ -347,7 +347,7 @@
                         tools:layout_editor_absoluteY="413dp" />
 
                     <TextView
-                        android:id="@+id/judul"
+                        android:id="@+id/judul2"
                         android:layout_width="234dp"
                         android:layout_height="28dp"
                         android:layout_alignParentLeft="true"
@@ -361,7 +361,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linearLayout11"
+                    android:id="@+id/linear4"
                     android:layout_width="wrap_content"
                     android:layout_height="16dp"
                     android:layout_marginLeft="50dp"
@@ -370,7 +370,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/bawah1"
+                        android:id="@+id/bawah2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -383,7 +383,7 @@
                         tools:layout_editor_absoluteY="441dp" />
 
                     <TextView
-                        android:id="@+id/dr1"
+                        android:id="@+id/dr3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -404,13 +404,13 @@
                 android:layout_marginTop="4dp">
 
                 <ImageView
-                    android:id="@+id/dasarkonten"
+                    android:id="@+id/dasarkonten3"
                     android:layout_width="310dp"
                     android:layout_height="91dp"
                     app:srcCompat="@drawable/kotak" />
 
                 <LinearLayout
-                    android:id="@+id/linearLayout10"
+                    android:id="@+id/linear5"
                     android:layout_width="317dp"
                     android:layout_height="32dp"
                     android:layout_marginTop="20dp"
@@ -418,7 +418,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/imageView8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/buah"
@@ -426,7 +426,7 @@
                         tools:layout_editor_absoluteY="413dp" />
 
                     <TextView
-                        android:id="@+id/judul"
+                        android:id="@+id/judul3"
                         android:layout_width="234dp"
                         android:layout_height="28dp"
                         android:layout_alignParentLeft="true"
@@ -440,7 +440,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linearLayout11"
+                    android:id="@+id/linear6"
                     android:layout_width="wrap_content"
                     android:layout_height="16dp"
                     android:layout_marginLeft="50dp"
@@ -449,7 +449,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/bawah1"
+                        android:id="@+id/bawah3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -462,7 +462,7 @@
                         tools:layout_editor_absoluteY="441dp" />
 
                     <TextView
-                        android:id="@+id/dr1"
+                        android:id="@+id/dr4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -482,13 +482,13 @@
                 android:layout_height="91dp">
 
                 <ImageView
-                    android:id="@+id/dasarkonten"
+                    android:id="@+id/dasarkonten4"
                     android:layout_width="310dp"
                     android:layout_height="91dp"
                     app:srcCompat="@drawable/kotak" />
 
                 <LinearLayout
-                    android:id="@+id/linearLayout10"
+                    android:id="@+id/linear7"
                     android:layout_width="317dp"
                     android:layout_height="32dp"
                     android:layout_marginTop="20dp"
@@ -496,7 +496,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/imageView1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/buah"
@@ -504,7 +504,7 @@
                         tools:layout_editor_absoluteY="413dp" />
 
                     <TextView
-                        android:id="@+id/judul"
+                        android:id="@+id/judul4"
                         android:layout_width="234dp"
                         android:layout_height="28dp"
                         android:layout_alignParentLeft="true"
@@ -518,7 +518,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linearLayout11"
+                    android:id="@+id/linear8"
                     android:layout_width="wrap_content"
                     android:layout_height="16dp"
                     android:layout_marginLeft="50dp"
@@ -527,7 +527,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/bawah1"
+                        android:id="@+id/bawah4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -540,7 +540,7 @@
                         tools:layout_editor_absoluteY="441dp" />
 
                     <TextView
-                        android:id="@+id/dr1"
+                        android:id="@+id/dr5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
