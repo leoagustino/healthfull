@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bacaartikel"
+    android:background="#EDEFE3">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/biru_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/menu_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/biru_200"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Artikel Olahraga"
+            android:textColor="@color/teal_200"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bacaanartikel" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/roboto_regular"
+            android:justificationMode="inter_word"
+            android:text="Cardio adalah olahraga olah tubuh yang bertujuan memperkuat jantung dan paru-paru. Selain mampu memperbaiki fungsi tubuh dalam memanfaatkan oksigen, olahraga kardio juga bermanfaat memperbaiki denyut jantung, tekanan darah, dan pernapasan. loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsumloremIpsum loremIpsumloremIpsum loremIpsumloremIpsumloremIpsumloremIpsumloremIpsum loremIpsumloremIpsumloremIpsu loremIpsum loremIpsum loremIpsum loremIpsumloremIpsum loremIpsumloremIpsu loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum.
+
+loremIpsumloremIpsumloremIpsumloremIpsu loremIpsum loremIpsum loremIpsumloremIpsumloremIpsumloremIpsum loremIpsumloremIpsum loremIpsum loremIpsumloremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsumloremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum.
+
+        loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsumloremIpsum loremIpsum loremIpsum loremIpsum"
+            android:textAllCaps="false"
+            android:textColor="@color/teal_200"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Cardio"
+            android:textAllCaps="true"
+            android:textColor="@color/teal_200"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="125dp"
+            tools:layout_editor_absoluteY="341dp"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/roboto_italic"
+            android:text="By :  Ali Mubaroq"
+            android:textAllCaps="false"
+            android:textColor="@color/teal_200"
+            android:textSize="13dp" />
+
+        <ImageButton
+            android:id="@+id/bookmarkadd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="365dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/white_12"
+            app:srcCompat="@drawable/bookmarkborder" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
