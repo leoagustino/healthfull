@@ -289,7 +289,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton"
+                    android:id="@+id/plus1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
@@ -362,7 +362,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton"
+                    android:id="@+id/plus2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
@@ -372,7 +372,7 @@
                     tools:layout_editor_absoluteY="439dp" />
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/lonceng3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@null"
@@ -430,7 +430,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton"
+                    android:id="@+id/plus3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
@@ -440,7 +440,7 @@
                     tools:layout_editor_absoluteY="439dp" />
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/lonceng4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@null"
@@ -508,7 +508,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton"
+                    android:id="@+id/plus4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"

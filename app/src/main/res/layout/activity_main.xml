@@ -26,6 +26,40 @@
         android:text="Share "
         android:layout_margin="15dp"/>
 
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signin"
+         />
 
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup"
+         />
+
+    <Button
+        android:id="@+id/btn_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dasboard"
+         />
+
+    <Button
+        android:id="@+id/btn_menumakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Menumakan"
+         />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        />
 </LinearLayout>
 

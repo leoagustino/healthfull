@@ -245,7 +245,7 @@
         android:layout_height="160dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/lingkaran"
+        android:src="@drawable/lingkaranchart"
         app:layout_constraintBottom_toBottomOf="@+id/card"
         app:layout_constraintEnd_toEndOf="@+id/card"
         app:layout_constraintHorizontal_bias="0.913"

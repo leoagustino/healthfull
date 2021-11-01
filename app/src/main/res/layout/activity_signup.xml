@@ -99,7 +99,7 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/password_text_input"
+            android:id="@+id/password_up"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
@@ -107,7 +107,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/password_edit_text"
+                android:id="@+id/password_edit_up"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/dasar"
