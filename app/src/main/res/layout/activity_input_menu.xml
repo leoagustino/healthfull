@@ -79,16 +79,15 @@
 
     <LinearLayout
         android:id="@+id/linearLayout12"
-        android:layout_width="wrap_content"
-        android:layout_height="350dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="165dp"
+        android:layout_height="364dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/linearLayout13"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065">
+        app:layout_constraintVertical_bias="0.068">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="130dp"
