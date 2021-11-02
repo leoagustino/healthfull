@@ -1,0 +1,60 @@
+[33mcommit cce90d0ef0ad72dbcad3607d6d7b7cc947b1a105[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: eee6dea da026a9
+Author: leoagustino <91458193+leoagustino@users.noreply.github.com>
+Date:   Mon Nov 1 05:58:10 2021 +0700
+
+    Merge pull request #2 from leoagustino/sekar
+    
+    Sekar
+
+[33mcommit da026a93b78f170c71eb31d700b2f8af862ba135[m[33m ([m[1;31morigin/sekar[m[33m)[m
+Merge: 1516805 eee6dea
+Author: leoagustino <91458193+leoagustino@users.noreply.github.com>
+Date:   Mon Nov 1 05:57:20 2021 +0700
+
+    Merge branch 'master' into sekar
+
+[33mcommit 1516805c5ff98017a760daa11d334114cf4dc0ae[m
+Author: syfr456 <sekarsyafira225@gmail.com>
+Date:   Mon Nov 1 04:14:24 2021 +0700
+
+    onbrd,nav,org
+
+[33mcommit ba0c8c06ef3efd04b1cf02eaee439ba8032d1d72[m
+Author: syfr456 <sekarsyafira225@gmail.com>
+Date:   Mon Nov 1 03:23:39 2021 +0700
+
+    onboard,nav,org
+
+[33mcommit 1286ab8ed09650165b7b0a6be276a4241b63789d[m
+Author: syfr456 <sekarsyafira225@gmail.com>
+Date:   Mon Nov 1 02:44:10 2021 +0700
+
+    on1-3,nav,olahraga
+
+[33mcommit eee6deaecf441c085825a17c904af181a37206aa[m
+Merge: fc6a83e 8d45bb7
+Author: leoagustino <91458193+leoagustino@users.noreply.github.com>
+Date:   Mon Nov 1 01:21:53 2021 +0700
+
+    Merge pull request #1 from leoagustino/tugasleo
+    
+    tugasleo
+
+[33mcommit 8d45bb7d8c0cdf7922554de36f664984630a5231[m[33m ([m[1;31morigin/tugasleo[m[33m)[m
+Author: leoagustino <gunyearsofficial@gmail.com>
+Date:   Mon Nov 1 00:42:42 2021 +0700
+
+    leo2
+
+[33mcommit fc6a83e89922b71b8c9849e90eec1d1ad64dca5e[m
+Author: leoagustino <gunyearsofficial@gmail.com>
+Date:   Sun Oct 24 16:50:57 2021 +0700
+
+    leo signin dan sigup
+
+[33mcommit 73b0305e0b496fa446f85cf71ab93d55218aacab[m
+Author: leoagustino <gunyearsofficial@gmail.com>
+Date:   Thu Oct 21 09:47:26 2021 +0700
+
+    First
