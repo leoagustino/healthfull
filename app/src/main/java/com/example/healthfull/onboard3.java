@@ -20,7 +20,7 @@ public class onboard3 extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent d = new Intent(onboard3.this, signin.class);
+                Intent d = new Intent(onboard3.this, olahraga.class);
                 startActivity(d);
             }
         });

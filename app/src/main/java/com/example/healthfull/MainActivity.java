@@ -70,12 +70,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.btn_video).setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), vidOlahraga.class));
-            }
-        });
+
+
 
     }
 }
