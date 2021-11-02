@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
-import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.MenuItem;
@@ -35,7 +34,6 @@ public class olahraga extends AppCompatActivity {
 
                 switch (item.getItemId()) {
                     case R.id.activity:
-
                         Toast.makeText(olahraga.this, "Activity clicked", Toast.LENGTH_SHORT).show();
                     case R.id.eat:
                         Toast.makeText(olahraga.this, "Eat clicked", Toast.LENGTH_SHORT).show();
@@ -71,10 +69,5 @@ public class olahraga extends AppCompatActivity {
             }
         });
 
-    }
-
-    public void pindahHome(MenuItem item) {
-        Intent intent = new Intent(olahraga.this, dashboard.class);
-        startActivity(intent);
     }
 }

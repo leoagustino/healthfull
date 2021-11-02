@@ -45,7 +45,7 @@
                 android:id="@+id/textemail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="a@Mail"
+                android:text="TextView"
                 android:textAppearance="@style/skip"
                 android:textStyle="bold" />
 
@@ -53,15 +53,15 @@
                 android:id="@+id/textid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="id"
+                android:text="Textid"
                 android:textAppearance="@style/skip"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btn_logout"
-                android:layout_width="55dp"
-                android:layout_height="30dp"
-                android:text="Out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keluar"
                 android:backgroundTint="@color/merahtua"
                 android:textSize="8dp"></Button>
 
@@ -194,7 +194,6 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:background="@null"
-            android:onClick="pindahOlahraga"
             app:srcCompat="@drawable/ic_olahraga"
             tools:layout_editor_absoluteX="165dp"
             tools:layout_editor_absoluteY="169dp" />
@@ -556,7 +555,6 @@
             </FrameLayout>
         </LinearLayout>
     </ScrollView>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
