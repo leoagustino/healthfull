@@ -22,7 +22,7 @@
         <entry key="app/src/main/res/drawable/progcircle.xml" value="0.18854166666666666" />
         <entry key="app/src/main/res/drawable/rectangeltanggal.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/selector.xml" value="0.209375" />
-        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_detail_input.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_input_menu.xml" value="0.2087912087912088" />
         <entry key="app/src/main/res/layout/activity_laporan.xml" value="0.20081967213114754" />
@@ -38,6 +38,7 @@
         <entry key="app/src/main/res/layout/activity_pengingat2.xml" value="0.21458333333333332" />
         <entry key="app/src/main/res/layout/activity_signin.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_vid_olahraga.xml" value="0.15833333333333333" />
         <entry key="app/src/main/res/layout/dropdownjadwal.xml" value="0.33" />
         <entry key="app/src/main/res/layout/header.xml" value="0.21458333333333332" />
         <entry key="app/src/main/res/layout/nav_header.xml" value="0.2246376811594203" />

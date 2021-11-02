@@ -32,6 +32,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
@@ -57,6 +58,7 @@ public class dashboard extends AppCompatActivity implements NavigationView.OnNav
                 startActivity(new Intent(getApplicationContext(), menumakan.class));
             }
         });
+
 
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -231,6 +233,11 @@ public class dashboard extends AppCompatActivity implements NavigationView.OnNav
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
+    }
+
+    public void pindahOlahraga(View view) {
+        Intent intent = new Intent(dashboard.this, olahraga.class);
+        startActivity(intent);
     }
 }
 
