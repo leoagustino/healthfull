@@ -189,7 +189,8 @@
             tools:layout_editor_absoluteY="169dp" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/btn_olahraga"
+            android:onClick="pindahOlahraga"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"

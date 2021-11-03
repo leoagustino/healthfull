@@ -232,5 +232,10 @@ public class dashboard extends AppCompatActivity implements NavigationView.OnNav
     public void onPointerCaptureChanged(boolean hasCapture) {
 
     }
+
+    public void pindahOlahraga(View view) {
+        Intent intent = new Intent(dashboard.this, olahraga.class);
+        startActivity(intent);
+    }
 }
 

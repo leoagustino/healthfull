@@ -24,11 +24,11 @@
         android:id="@+id/card"
         android:layout_width="358dp"
         android:layout_height="308dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="4dp"
         android:src="@drawable/olahragakotak"
 
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/video" />
 
@@ -175,7 +175,7 @@
         style="@style/video"
         android:layout_width="146dp"
         android:layout_height="44dp"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#EDEFE3"
         android:text="Video"
@@ -183,7 +183,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.333" />
 
     <Button
         android:id="@+id/artikel"
@@ -344,13 +344,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="4dp"
         android:background="@color/nav"
         android:foregroundGravity="bottom"
         app:itemIconTint="@drawable/state_bnv"
         app:itemTextColor="@drawable/state_bnv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/card"
         app:menu="@menu/menu_bawah" />
